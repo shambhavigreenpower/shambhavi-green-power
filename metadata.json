@@ -1,0 +1,6 @@
+{
+  "name": "Shambhavi Green Power",
+  "description": "Premium solar energy solutions for residential, commercial, and agricultural sectors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
