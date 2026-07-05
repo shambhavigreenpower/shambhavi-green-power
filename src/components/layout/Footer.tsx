@@ -130,9 +130,20 @@ export function Footer() {
             <div className="flex flex-col gap-4 text-sm text-gray-300">
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-brand-accent flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed text-xs text-gray-200">
-                  {COMPANY_INFO.address}
-                </span>
+                <div className="flex flex-col gap-3">
+                  <div>
+                    <span className="text-[10px] font-bold text-brand-accent uppercase block tracking-wider mb-0.5">Ahmedabad Head Office</span>
+                    <span className="leading-relaxed text-xs text-gray-200">
+                      {COMPANY_INFO.address}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-bold text-brand-accent uppercase block tracking-wider mb-0.5">Khambha Branch Office</span>
+                    <span className="leading-relaxed text-xs text-gray-200">
+                      {COMPANY_INFO.branchAddress}
+                    </span>
+                  </div>
+                </div>
               </div>
               
               <div className="flex items-center gap-3">

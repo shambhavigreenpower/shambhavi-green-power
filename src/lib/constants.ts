@@ -18,6 +18,7 @@ export const COMPANY_INFO = {
   whatsapp: "https://wa.me/919662987211?text=Hello%20Shambhavi%20Green%20Power%2C%20I%20am%20interested%20in%20your%20solar%20services.%20Please%20provide%20more%20details.",
   email: "info@shambhavigreenpower.com",
   address: "38, Ratnmani Industrial Estate, Singarva Kathwada Road, Kathwada, Ahmedabad",
+  branchAddress: "Near AJMS Bank, Opposite Kumar Shala, Khambha - 365650",
   googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.9168925203874!2d72.67878837588147!3d23.026859316131372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8706fb50c777%3A0x892a06593a623bfd!2sRatnamani%20Industrial%20Estate%2C%20Ahmedabad%2C%20Gujarat%20382348!5e0!3m2!1sen!2sin!4v1719688190000!5m2!1sen!2sin",
   hours: "",
 };

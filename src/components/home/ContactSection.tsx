@@ -168,9 +168,15 @@ export function ContactSection() {
                 <div className="p-3 bg-brand-primary/10 border border-brand-light/10 text-brand-primary rounded-xl">
                   <MapPin className="h-5 w-5" />
                 </div>
-                <div>
-                  <h4 className="font-display font-extrabold text-brand-dark text-sm mb-1">Our Head Office</h4>
-                  <p className="text-gray-500">{COMPANY_INFO.address}</p>
+                <div className="flex flex-col gap-3">
+                  <div>
+                    <h4 className="font-display font-extrabold text-brand-dark text-sm mb-0.5">Ahmedabad Head Office</h4>
+                    <p className="text-gray-500 text-xs leading-relaxed">{COMPANY_INFO.address}</p>
+                  </div>
+                  <div className="pt-2 border-t border-gray-100">
+                    <h4 className="font-display font-extrabold text-brand-dark text-sm mb-0.5">Khambha Branch Office</h4>
+                    <p className="text-gray-500 text-xs leading-relaxed">{COMPANY_INFO.branchAddress}</p>
+                  </div>
                 </div>
               </div>
 
